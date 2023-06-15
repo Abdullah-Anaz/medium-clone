@@ -100,11 +100,11 @@ function Post({post} : Props) {
             </label>
             <label className="block mb-5">
                 <span className="text-gray-700">Email</span>
-                <input {...register("email", {required:true})} className="shadow border rounded py-2 px-3 form-input mt-1 block w-full ring-yellow-500 outline-none focus:ring" placeholder="John Appleseed" type="email" />
+                <input {...register("email", {required:true})} className="shadow border rounded py-2 px-3 form-input mt-1 block w-full ring-yellow-500 outline-none focus:ring" placeholder="Johnappleseed@email.com" type="email" />
             </label>
             <label className="block mb-5">
                 <span className="text-gray-700">Comment</span>
-                <textarea {...register("comment", {required:true})} className="shadow border rounded py-2 px-3 form-textarea mt-1 block w-full ring-yellow-500 outline-none focus:ring" placeholder="John Appleseed" rows={8} />
+                <textarea {...register("comment", {required:true})} className="shadow border rounded py-2 px-3 form-textarea mt-1 block w-full ring-yellow-500 outline-none focus:ring" placeholder="Nice Work!" rows={8} />
             </label>
            
            <div className="flex flex-col p-5">
