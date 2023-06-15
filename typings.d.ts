@@ -5,6 +5,7 @@ export interface Post {
       name: string;
       image: string;
     };
+    publishedAt: string;
     comments: [comment];
     description: string;
     mainImage: {
